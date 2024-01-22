@@ -1,0 +1,5 @@
+ const http = require ('http');
+ http.createServer((req,res)=>{
+    res.write("Hello, I am server");
+    res.end();
+ }).listen(5500);   
